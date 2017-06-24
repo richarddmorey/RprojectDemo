@@ -15,6 +15,11 @@ Software to download and install:
 * RStudio (https://www.rstudio.com/products/rstudio/download3/)
 * Zotero, for exporting bibtex files for bibliographies (https://www.zotero.org/download/)
 
+Additional tasks:
+
+Add the R binary directory to the path.
+
+
 ### OSX
 
 Software to download and install:
