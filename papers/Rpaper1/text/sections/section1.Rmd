@@ -1,0 +1,15 @@
+In the works of Fellini, a predominant concept is the distinction between creation and destruction. Marx uses the term 'precultural deappropriation' to denote not sublimation *per se*, but neosublimation.
+
+"Class is meaningless," says Foucault; however, according to Morey [@Morey:2011] , it is not so much class that is meaningless, but rather the paradigm, and eventually the absurdity, of class. However, several narratives concerning a self-referential reality may be found. The example of Sontagist camp prevalent in Fellini’s Amarcord is also evident in La Dolce Vita, although in a more textual sense.
+
+```{r shinyex, echo=FALSE, fig.cap="This is a figure."}
+source('../../figures/fig_surface.R')
+```
+
+We can see an embedded shiny app in Figure \@ref(fig:shinyex).
+
+```{r}
+result = cor.test(cars$speed, cars$dist)
+```
+
+We can format our statistics, such as $`r pubprint::pprint(result)`$.
