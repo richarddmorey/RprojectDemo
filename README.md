@@ -7,6 +7,8 @@ This demonstration shows how to organize a research project using R and Rmarkdow
 * Papers are compiled to HTML and PDF/Word at the same time; your paper is a website!
 * Websites can include interactive figures, while PDF/Word contains static ones
 
+The compiled example paper are in  `papers/Rpaper1/text/papaja_paper` (PDF) and  `papers/Rpaper1/text/html_paper` (HTML).
+
 ## How to prepare
 
 You might need to install some things first. You'll need some R packages.
@@ -63,6 +65,8 @@ Install using your favorite package manager, if available.
 
 * Download the whole repository
 * Edit the text in `papers/Rpaper1/text/sections/` if you like. The paper structure is in `structure.Rmd`; each section is a file in this directory.
-* Set the Rstudio build script to `buildme` (or `buildme.bat` in Windows)
+* Set the Rstudio build script to `papers/Rpaper1/buildme` (or `papers/Rpaper1/buildme.bat` in Windows)
 * Also, check out the website template in the `website` directory. With GitHub, you can easily create and host your own webpages, including the HTML version of your paper! You'll have to turn on GitHub pages, though.
+
+The PDF version of the paper will be in `papers/Rpaper1/text/papaja_paper`, and the HTML version will be in `papers/Rpaper1/text/html_paper`.
 
